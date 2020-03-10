@@ -2,7 +2,7 @@
 #include"CPointer.h"
 
 
-///冒泡排序
+///冒泡排序(从小到大)
 void BubbleSort(int arr[], int len) {
 	for (int i = 0; i < len - 1; i++)
 	{
@@ -14,6 +14,25 @@ void BubbleSort(int arr[], int len) {
 			}
 		}
 	}
+}
+
+///插入排序(从小到大)
+void InsertionSort(int arr[], int len) {
+	for (int i = 1; i < len; i++)
+	{
+		for (int j = i; j > 0; j--)
+		{
+			if (arr[j] < arr[j - 1])
+			{
+				InterChangeByPointer(&(arr[j]), &(arr[j - 1]));
+			}
+		}
+	}
+}
+
+///Shell排序(从小到大)
+void ShellSort(int arr[], int len) {
+
 }
 
 ///将数组反转顺序
