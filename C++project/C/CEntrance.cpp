@@ -3,7 +3,7 @@
 int main() {
 	int arr[] = { 7,5,2,1,3,6,4 };
 	int len = sizeof(arr) / sizeof(arr[0]);
-	InsertionSort(arr, len);
+	ShellSort_Normal(arr, len);
 	Reversal(arr, len);
 	for (int i = 0; i < len; i++)
 	{
