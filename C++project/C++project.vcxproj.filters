@@ -47,6 +47,12 @@
     <ClInclude Include="C\CPointer.h">
       <Filter>源文件</Filter>
     </ClInclude>
+    <ClInclude Include="C\CHeap.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="C\CBinaryTree.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="data\test.txt">

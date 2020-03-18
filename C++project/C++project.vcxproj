@@ -24,7 +24,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C++\C++Example.h" />
+    <ClInclude Include="C\CBinaryTree.h" />
     <ClInclude Include="C\CData.h" />
+    <ClInclude Include="C\CHeap.h" />
     <ClInclude Include="C\CLink.h" />
     <ClInclude Include="C\CPointer.h" />
     <ClInclude Include="C\CShowChar.h" />
